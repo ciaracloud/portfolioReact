@@ -1,10 +1,12 @@
 import React from "react";
 import "./Navbar.css";
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <div>
-      <p>Navbar</p>
+      <a className="link" href={props.link.link}>
+        {props.link.name}
+      </a>
     </div>
   );
 }

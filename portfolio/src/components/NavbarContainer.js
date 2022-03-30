@@ -11,7 +11,7 @@ export default function NavbarContainer() {
   return (
     <div className="navbarContainer">
       {links.map((link) => {
-        <Navbar link={link} />;
+        return <Navbar link={link} />;
       })}
     </div>
   );
