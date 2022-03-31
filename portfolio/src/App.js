@@ -1,10 +1,12 @@
 import "./App.css";
+import AppPageContainer from "./components/AppPageContainer";
+import catPic from "./images/cat.png";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, I'm Ciara Cloud!</h1>
-      <p></p>
+      <img class="catPic" src={catPic} />
+      <AppPageContainer />
     </div>
   );
 }

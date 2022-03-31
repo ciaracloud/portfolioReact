@@ -1,11 +1,11 @@
 import React from "react";
 import NavbarContainer from "./NavbarContainer";
 
-export default function About() {
+export default function Projects() {
   return (
     <div>
       <NavbarContainer />
-      <h1>About</h1>
+      <h1>Projects</h1>
     </div>
   );
 }

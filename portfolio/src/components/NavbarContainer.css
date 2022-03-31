@@ -1,7 +1,7 @@
 .navbarContainer {
   background-color: mediumpurple;
-  display: flex;
-  justify-content: center;
   gap: 20px;
   padding: 20px;
+  width: 15%;
+  height: 100vh;
 }

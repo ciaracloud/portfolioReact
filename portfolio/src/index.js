@@ -4,17 +4,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import About from "./components/About";
-import Resume from "./components/Resume";
-import NavbarContainer from "./components/NavbarContainer";
+import Contact from "./components/Contact";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <NavbarContainer />
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="about" element={<About />} />
-        <Route path="resume" element={<Resume />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
