@@ -1,11 +1,12 @@
+import "./About.css";
+
 import React from "react";
-import NavbarContainer from "./NavbarContainer";
+import Navbar from "../Navbar/Navbar";
 
 export default function About() {
   return (
     <div>
-      <NavbarContainer />
-      <h1>About</h1>
+      <h1 id="about">About</h1>
     </div>
   );
 }

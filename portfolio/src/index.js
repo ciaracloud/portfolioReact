@@ -3,16 +3,15 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Work from "./components/Work/Work";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
