@@ -6,18 +6,25 @@ import Project from "../Project/Project";
 export default function Work() {
   const projectsArray = [
     {
-      name: "test name",
+      name: "Vacay Buddy",
       imgUrl: "img.png",
-      about: "This is some text about my project",
-      videoUrl: "video.mp4",
-      githubUrl: "github.com/project",
+      about: "This is some text about Vacay Buddy",
+      videoUrl: "https://youtu.be/68aq8eToanc",
+      githubUrl: "https://github.com/ciaracloud/fullStackProject_VacayBuddy",
     },
     {
-      name: "test2",
+      name: "Brandy",
       imgUrl: "img.png",
-      about: "This is some text about my second project",
-      videoUrl: "video.mp4",
-      githubUrl: "github.com/project2",
+      about: "This is some text about Brandy",
+      videoUrl: "https://youtu.be/mTRFO0Wi55k",
+      githubUrl: "https://github.com/ciaracloud/apiProject_Brandy",
+    },
+    {
+      name: "Sunny Side Up",
+      imgUrl: "img.png",
+      about: "This is some text about Sunny Side Up",
+      videoUrl: "https://youtu.be/3X9yLwFWr_w",
+      githubUrl: "https://github.com/ciaracloud/weatherApp_SunnySideUp",
     },
   ];
   return (
