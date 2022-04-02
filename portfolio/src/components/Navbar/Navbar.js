@@ -6,7 +6,6 @@ import { Link } from "react-scroll";
 export default function Navbar() {
   return (
     <div class="navbar">
-      <h3>Navbar</h3>
       <Link to="about" smooth={true} duration={1000}>
         About
       </Link>
