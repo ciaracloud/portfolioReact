@@ -3,6 +3,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Navbar from "./components/Navbar/Navbar";
 import Work from "./components/Work/Work";
+import Footer from "./components/Footer/Footer";
 import catPic from "./images/cat.png";
 import { Link } from "react-scroll";
 
@@ -17,7 +18,7 @@ function App() {
       <h1>Ciara Cloud</h1>
       <p>I am a software engineer with a background in art and design!</p>
       <h1>
-        <ReactRotatingText items={["Coder.", "Creative.", "Cat mom."]} />
+        <ReactRotatingText items={["Coder 💻", "Creative 🎨", "Cat mom 🐈‍⬛"]} />
       </h1>
       <Link to="work" smooth={true} duration={1000}>
         View my work
@@ -25,6 +26,7 @@ function App() {
       <About />
       <Work />
       <Contact />
+      <Footer />
     </div>
   );
 }
