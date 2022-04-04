@@ -1,3 +1,20 @@
 #contact {
-  margin-top: 400px;
+  margin-top: 100px;
+}
+
+.contact {
+  text-align: center;
+  background-color: #f4aafe;
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.messageInput {
+  height: 40%;
 }

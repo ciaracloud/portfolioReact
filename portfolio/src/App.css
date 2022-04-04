@@ -1,10 +1,30 @@
-.catPic {
+.illustration {
   width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  background-color: #fae0fe;
+  color: #301aa8;
+  text-align: center;
+}
+
+.homeText {
+  margin: 3%;
+  /* margin-left: 20%; */
+  text-align: center;
 }
 
 .appHeader {
   background-color: yellow;
   width: 40%;
+}
+
+.viewWorkButton {
+  background-color: #f4aafe;
+  color: white;
+  padding: 8px;
 }
 
 .react-rotating-text-cursor {

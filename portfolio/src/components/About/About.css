@@ -1,13 +1,19 @@
 #about {
-  margin-top: 400px;
+  margin-top: 100px;
 }
 
 .headshot {
   width: 30%;
-  border-radius: 200px;
+  border-radius: 300px;
 }
 
 .aboutMe {
   display: flex;
   justify-content: space-evenly;
+}
+
+.aboutMeContainer {
+  background-color: #fce9ff;
+  margin: 0px;
+  padding: 10px;
 }

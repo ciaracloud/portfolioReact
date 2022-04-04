@@ -1,15 +1,20 @@
 import "./Project.css";
 
 import React from "react";
-
 export default function Project({ name, imgUrl, about, videoUrl, githubUrl }) {
   return (
     <div>
-      <h1>{name}</h1>
-      <img src="" />
+      <h2>{name}</h2>
+      <img src={imgUrl} alt="" />
       <p>{about}</p>
-      <a href="">Video walk through</a>
-      <a href="">View on github</a>
+      <div className="buttonsContainer">
+        <a className="videoButton button" href={videoUrl} target="_blank">
+          Video walk through
+        </a>
+        <a className="videoButton button" href={githubUrl} target="_blank">
+          View on github
+        </a>
+      </div>
     </div>
   );
 }

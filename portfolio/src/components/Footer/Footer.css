@@ -1,4 +1,7 @@
 .footer {
-  background-color: mediumturquoise;
+  background-color: #301aa8;
+  color: white;
   text-align: center;
+  margin: 0px;
+  padding: 1px;
 }
