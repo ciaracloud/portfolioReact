@@ -1,1 +1,0 @@
-import "./Resume.css";

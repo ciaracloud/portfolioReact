@@ -3,5 +3,33 @@
   color: white;
   margin-right: 5px;
   padding: 8px;
+  margin-top: 5px;
   text-decoration: none;
+}
+
+.projectImg {
+  width: 63%;
+}
+
+.projectContent {
+  display: flex;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectContainer {
+  margin-bottom: 30px;
+  background-color: #fce9ff;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+  padding-left: 6%;
+}
+
+.projectTextConent {
+  margin-left: 5%;
 }

@@ -1,0 +1,23 @@
+.resumeImg {
+  width: 90%;
+}
+
+.resumeContent {
+  display: grid;
+  place-items: center;
+}
+
+.resumeContainer {
+  background-color: #f4aafe;
+  padding: 0.25%;
+  width: 58%;
+}
+
+.resumeButton {
+  background-color: #4345fc;
+  color: white;
+  padding: 8px;
+  margin-top: 2%;
+  text-decoration: none;
+  margin-bottom: 2%;
+}

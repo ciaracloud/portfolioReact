@@ -1,7 +1,3 @@
-#about {
-  margin-top: 100px;
-}
-
 .headshot {
   width: 30%;
   border-radius: 300px;
@@ -13,7 +9,6 @@
 }
 
 .aboutMeContainer {
-  background-color: #fce9ff;
+  background-color: #fae0fe;
   margin: 0px;
-  padding: 10px;
 }

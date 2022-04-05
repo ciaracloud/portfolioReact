@@ -11,7 +11,7 @@ export default function Navbar() {
           About
         </Link>
         <Link to="work" smooth={true} duration={1000}>
-          Work
+          Projects
         </Link>
         <Link to="contact" smooth={true} duration={1000}>
           Contact

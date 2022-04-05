@@ -1,20 +1,43 @@
-#contact {
-  margin-top: 100px;
-}
-
 .contact {
-  text-align: center;
   background-color: #f4aafe;
+  padding-right: 3%;
+  width: 35%;
+  padding-top: 15%;
 }
 
 .contactContent {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
-  margin-left: 25%;
+  gap: 5px;
+}
+
+.resumeAndContactContainer {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .messageInput {
-  height: 40%;
+  height: 100px;
+}
+
+.contactAndSkillsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.messageButton {
+  background-color: #4345fc;
+  color: white;
+  margin-right: 5px;
+  padding: 8px;
+  margin-top: 5px;
+  text-decoration: none;
+  border: none;
+  width: 60%;
+}
+
+.inputField {
+  border: none;
+  background-color: #fce9ff;
 }

@@ -6,15 +6,23 @@ import Socials from "../Socials/Socials";
 export default function Contact() {
   return (
     <div className="contact">
-      <h1 id="contact">Contact</h1>
-      <div className="contactContent">
-        <div className="nameAndEmail">
-          <input type="text" placeholder="Name*" />
-          <input type="text" placeholder="Email address*" />
+      <h1 id="contact">Let's work together!</h1>
+      <div className="contactAndSkillsContainer">
+        <div className="contactContent">
+          <input className="inputField" type="text" placeholder="Name*" />
+          <input
+            className="inputField"
+            type="text"
+            placeholder="Email address*"
+          />
+          <input className="inputField" type="text" placeholder="Subject*" />
+          <input
+            className="messageInput inputField"
+            type="text"
+            placeholder="Message*"
+          />
+          <button className="messageButton">Send message</button>
         </div>
-        <input type="text" placeholder="Subject*" />
-        <input className="messageInput" type="text" placeholder="Message*" />
-        <button>Send message</button>
         <Socials />
       </div>
     </div>
