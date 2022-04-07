@@ -1,5 +1,13 @@
 .skillsContainer {
-  background-color: #f4aafe;
   margin: 0px;
   padding: 0.25%;
+  display: grid;
+  place-items: center;
+}
+
+.skillsBackground {
+  background-color: #f4aafe;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
 }

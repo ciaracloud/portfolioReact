@@ -1,0 +1,13 @@
+.socialsSvg {
+  width: 100%;
+}
+
+.youtubePng {
+  width: 20%;
+}
+
+.socialsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

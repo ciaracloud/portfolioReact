@@ -1,14 +1,28 @@
 .headshot {
-  width: 30%;
-  border-radius: 300px;
+  width: 32%;
+  border-radius: 400px;
+  height: 2%;
 }
 
 .aboutMe {
   display: flex;
-  justify-content: space-evenly;
+  margin-right: 10%;
+  margin-left: 10%;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.aboutMeContent {
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .aboutMeContainer {
   background-color: #fae0fe;
   margin: 0px;
+}
+
+.aboutMeText {
+  width: 70%;
+  margin-left: 5%;
 }

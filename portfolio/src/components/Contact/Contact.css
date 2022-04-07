@@ -18,7 +18,6 @@
 }
 
 .messageInput {
-  height: 100px;
 }
 
 .contactAndSkillsContainer {
@@ -34,10 +33,15 @@
   margin-top: 5px;
   text-decoration: none;
   border: none;
-  width: 60%;
+  width: 140px;
+  font-size: 15px;
+  font-family: "Manrope", sans-serif;
 }
 
 .inputField {
+  padding: 8px;
   border: none;
-  background-color: #fce9ff;
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Manrope", sans-serif;
 }

@@ -3,7 +3,7 @@ import About from "./components/About/About";
 import Navbar from "./components/Navbar/Navbar";
 import Work from "./components/Work/Work";
 import Footer from "./components/Footer/Footer";
-import illustration from "./images/illustration3.jpg";
+import illustration from "./images/illustration.png";
 import ResumeAndContact from "./components/ResumeAndContact/ResumeAndContact";
 import Home from "./components/Home/Home";
 

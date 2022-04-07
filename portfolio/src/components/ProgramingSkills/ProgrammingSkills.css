@@ -1,0 +1,19 @@
+.iconsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.svg {
+  width: 90px;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.svgContainer {
+  display: grid;
+  place-items: center;
+}

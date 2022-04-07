@@ -2,15 +2,17 @@ import "./Skills.css";
 
 import React from "react";
 
+import ProgrammingSkills from "../ProgramingSkills/ProgrammingSkills";
+import CreativeSkills from "../CreativeSkills/CreativeSkills";
+
 export default function Skills() {
   return (
-    <div className="skillsContainer">
-      <h2>Skills</h2>
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>Python</p>
-      <p>JavaScript</p>
-      <p>React</p>
+    <div className="skillsBackground">
+      <h1>Skills</h1>
+      <div className="skillsContainer">
+        <ProgrammingSkills />
+        <CreativeSkills />
+      </div>
     </div>
   );
 }

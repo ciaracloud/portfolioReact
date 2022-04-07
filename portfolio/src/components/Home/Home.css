@@ -1,4 +1,44 @@
 .homeContainer {
   background-color: #fce9ff;
   padding: 3%;
+  padding-left: 20%;
+  padding-bottom: 50px;
+}
+
+.viewWorkButton {
+  background-color: #f4aafe;
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.homeSentence {
+  display: flex;
+}
+
+.rotateText {
+  margin-left: 5px;
+}
+
+.appHeader {
+  background-color: yellow;
+  width: 40%;
+}
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
+    infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
