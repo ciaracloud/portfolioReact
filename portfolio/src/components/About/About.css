@@ -13,7 +13,7 @@
 }
 
 .aboutMeContent {
-  padding-left: 20px;
+  padding-left: 1.5rem;
   padding-bottom: 20px;
 }
 
@@ -25,4 +25,15 @@
 .aboutMeText {
   width: 70%;
   margin-left: 5%;
+}
+
+.aboutMeHeader {
+  font-size: 22px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.aboutMePara {
+  font-size: 18px;
+  margin-top: 0.5rem;
 }

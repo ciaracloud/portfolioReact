@@ -1,15 +1,15 @@
 .iconsContainer {
   display: flex;
   flex-wrap: wrap;
-  color: white;
+  color: #4345fc;
   gap: 30px;
   margin-bottom: 20px;
 }
 
 .svg {
-  width: 90px;
-  color: white;
+  width: 70px;
   margin: 0px;
+  color: #4345fc;
   padding: 0px;
 }
 

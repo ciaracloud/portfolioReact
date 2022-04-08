@@ -12,21 +12,21 @@ export default function About() {
         <div className="aboutMe">
           <img className="headshot" src={headshot} />
           <div className="aboutMeText">
-            <h3>A software engineer</h3>
-            <p>
-              A student at DigitalCrafts, currently learning the basics of CSS.
-              Before becoming a student at DigitalCrafts, I graduated with a
-              degree in art from Florida International University. Along the way
-              of pursuing my passion for art, I discovered that I am passionate
-              about learning how to build beautiful, efficient and user friendly
-              websites.
+            <h3 className="aboutMeHeader">A software engineer</h3>
+            <p className="aboutMePara">
+              with a passion for building beautiful, effiecient, and
+              user-friendly websites. Before starting my journey as a web
+              developer, I graduated with an art degree from Florida
+              International University. Once I discovered that I could combine
+              my love for problem solving and creating, I fell in love with
+              coding and the tech industury as a whole.
             </p>
-            <p>
-              I was born and raised in the sunshine state and currently reside
-              in Tampa, FL. One of my biggest goals at the moment is to work as
-              a software engineer at a company that prioritizes growth for its
-              employees. I look forward to continuing my education on web
-              development.
+            <p className="aboutMePara">
+              One of my biggest goals at the moment is to work as a web
+              developer at a company that prioritizes growth for it's employees.
+              I look forward to using my current skills to contribute to the
+              success of whichever company I end up working with and continuing
+              my education on web development.
             </p>
           </div>
         </div>

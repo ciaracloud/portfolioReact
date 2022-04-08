@@ -36,7 +36,9 @@ export default function Work() {
   ];
   return (
     <>
-      <h1 id="work">Featured Projects</h1>
+      <h1 id="work" className="projectsHeader">
+        Featured Projects
+      </h1>
       <div className="workContainer">
         {projectsArray.map((singleProject) => (
           <Project

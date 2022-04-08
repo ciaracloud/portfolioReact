@@ -1,13 +1,26 @@
 .socialsSvg {
-  width: 100%;
+  width: 80%;
 }
 
 .youtubePng {
-  width: 20%;
+  width: 80%;
 }
 
 .socialsContainer {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  width: 23%;
+  margin-top: 3%;
+}
+
+.linkedInContainer {
+  display: grid;
+  place-items: center;
+}
+
+.githubContainer {
+  display: grid;
+  place-items: center;
+  padding-left: 0px;
 }

@@ -5,7 +5,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="footer">
-      <p>Built and designed with 🤍 by Ciara Cloud</p>
+      <p>(c) 2022 | Built and designed with 🤍 by Ciara Cloud</p>
     </div>
   );
 }

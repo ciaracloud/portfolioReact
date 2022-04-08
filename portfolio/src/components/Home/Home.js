@@ -7,9 +7,9 @@ const ReactRotatingText = require("react-rotating-text");
 export default function Home() {
   return (
     <div className="homeContainer">
-      <h1>Hi, Ciara Cloud</h1>
+      <h1 className="name">Hi, I'm Ciara</h1>
       <div className="homeSentence">
-        <h2>I am a</h2>
+        <h2 className="iAm">I am a</h2>
         <h2 className="rotateText">
           <ReactRotatingText items={["coder", "creative", "cat mom"]} />
         </h2>

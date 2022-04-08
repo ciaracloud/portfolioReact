@@ -6,7 +6,7 @@ import resumePNG from "../../images/resume.png";
 export default function Resume() {
   return (
     <div className="resumeContainer">
-      <h1>Contact</h1>
+      <h1 className="contactHeader">Contact</h1>
       <div className="resumeContent">
         <img className="resumeImg" src={resumePNG} />
         <a className="resumeButton" href="">
