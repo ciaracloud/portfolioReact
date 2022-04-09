@@ -8,7 +8,9 @@ export default function About() {
   return (
     <div className="aboutMeContainer">
       <div className="aboutMeContent">
-        <h1 id="about">About</h1>
+        <h1 id="about" className="aboutHeader">
+          About
+        </h1>
         <div className="aboutMe">
           <img className="headshot" src={headshot} />
           <div className="aboutMeText">

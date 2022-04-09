@@ -8,7 +8,7 @@ import CreativeSkills from "../CreativeSkills/CreativeSkills";
 export default function Skills() {
   return (
     <div className="skillsBackground">
-      <h1>Skills</h1>
+      <h1 className="skillsHeader">Skills</h1>
       <div className="skillsContainer">
         <ProgrammingSkills />
         <CreativeSkills />
