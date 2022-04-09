@@ -16,8 +16,15 @@
   color: white;
   padding: 14px;
   font-weight: 600;
-  border-radius: 10px;
+  border-radius: 1rem;
   font-size: 20px;
+  cursor: pointer;
+}
+
+.viewWorkButton:hover {
+  background-color: #f396ff;
+  transition: 0.5s;
+  color: white;
 }
 
 .homeSentence {
@@ -60,5 +67,30 @@
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .name {
+    font-size: 50px;
+  }
+  .iAm {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  .rotateText {
+    font-size: 25px;
+  }
+  .viewWorkButton {
+    padding: 0.7rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0px;
+  }
+  .homeContainer {
+    padding-bottom: 13%;
+    padding-left: 10%;
   }
 }

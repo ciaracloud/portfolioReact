@@ -16,10 +16,17 @@
 .resumeButton {
   background-color: #4345fc;
   color: white;
-  padding: 8px;
+  padding: 2%;
   margin-top: 2%;
   text-decoration: none;
   margin-bottom: 2%;
+  border-radius: 1rem;
+}
+
+.resumeButton:hover {
+  background-color: #7577ff;
+  transition: 0.5s;
+  color: white;
 }
 
 .contactHeader {

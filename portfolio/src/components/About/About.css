@@ -37,3 +37,23 @@
   font-size: 18px;
   margin-top: 0.5rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .headshot {
+    width: 60%;
+  }
+  .aboutMe {
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: center;
+  }
+  .aboutMeHeader {
+    font-size: 20px;
+    text-align: center;
+  }
+  .aboutMePara {
+    font-size: 15px;
+    text-align: center;
+  }
+}

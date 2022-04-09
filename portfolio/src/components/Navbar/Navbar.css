@@ -16,4 +16,26 @@
   display: flex;
   width: 19%;
   justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.aboutLink:hover,
+.projectsLink:hover,
+.contactLink:hover {
+  transition: 0.7s;
+  color: #f8c9ff;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    font-size: 15px;
+    justify-content: center;
+  }
+  .projectsLink {
+    margin-left: 30%;
+  }
+  .contactLink {
+    margin-left: 30%;
+  }
 }

@@ -3,3 +3,9 @@
   flex-wrap: wrap;
   background-color: #f4aafe;
 }
+
+@media only screen and (max-width: 768px) {
+  .rAndC {
+    flex-direction: column;
+  }
+}

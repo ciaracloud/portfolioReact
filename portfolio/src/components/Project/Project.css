@@ -7,6 +7,13 @@
   text-decoration: none;
   width: 150px;
   text-align: center;
+  border-radius: 1rem;
+}
+
+.button:hover {
+  background-color: #7577ff;
+  transition: 0.5s;
+  color: white;
 }
 
 .projectImg {
@@ -40,4 +47,30 @@
 
 .projectAbout {
   font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .projectContainer {
+    margin: 3%;
+    padding: 6%;
+  }
+  .projectContent {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .projectAbout {
+    font-size: 15px;
+  }
+  .buttonsContainer {
+    justify-content: center;
+  }
+  .button {
+    font-size: 13.5px;
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+  }
+  .projectImg {
+    width: 80%;
+  }
 }

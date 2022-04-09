@@ -6,7 +6,11 @@ import youtubePNG from "../../images/youtubelogo.png";
 export default function Socials() {
   return (
     <div className="socialsContainer">
-      <a className="githubContainer" href="">
+      <a
+        className="githubContainer"
+        href="https://github.com/ciaracloud"
+        target="_blank"
+      >
         <svg className="socialsSvg githubSocialsSvg" viewBox="0 0 128 128">
           <g fill="#ffffff">
             <path
@@ -18,7 +22,11 @@ export default function Socials() {
           </g>
         </svg>
       </a>
-      <a className="linkedInContainer" href="">
+      <a
+        className="linkedInContainer"
+        href="https://www.linkedin.com/in/ciaracloud/"
+        target="_blank"
+      >
         <svg className="socialsSvg linkedInSocialsSvg" viewBox="0 0 128 128">
           <path
             fill="#ffffff"

@@ -14,7 +14,7 @@ export default function About() {
           <div className="aboutMeText">
             <h3 className="aboutMeHeader">A software engineer</h3>
             <p className="aboutMePara">
-              with a passion for building beautiful, effiecient, and
+              with a passion for building beautiful, efficient, and
               user-friendly websites. Before starting my journey as a web
               developer, I graduated with an art degree from Florida
               International University. Once I discovered that I could combine

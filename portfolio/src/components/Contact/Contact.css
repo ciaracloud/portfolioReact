@@ -23,14 +23,22 @@
   background-color: #4345fc;
   color: white;
   margin-right: 5px;
-  padding: 8px;
+  padding: 2%;
   margin-top: 5px;
   text-decoration: none;
   border: none;
   width: 140px;
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Manrope", sans-serif;
   margin-bottom: 1%;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.messageButton:hover {
+  background-color: #7577ff;
+  transition: 0.5s;
+  color: white;
 }
 
 .inputField {
@@ -41,4 +49,29 @@
   font-family: "Manrope", sans-serif;
   margin-top: 2%;
   outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5%;
+    margin-top: 2%;
+  }
+  .resumeContainer {
+    display: none;
+  }
+  .socialsContainer {
+    margin-bottom: 8%;
+  }
+  #contact {
+    font-size: 27px;
+    margin-top: 0px;
+    margin-bottom: 0.7rem;
+  }
+  .messageButton {
+    font-size: 14px;
+    padding: 0.4rem;
+    width: 43%;
+  }
 }
