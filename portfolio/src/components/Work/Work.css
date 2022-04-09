@@ -2,6 +2,7 @@
   display: grid;
   place-items: center;
   padding: 3%;
+  margin-left: 0.8rem;
 }
 
 .projectsHeader {
