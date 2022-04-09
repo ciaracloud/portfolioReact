@@ -27,8 +27,8 @@ export default function About() {
               One of my biggest goals at the moment is to work as a web
               developer at a company that prioritizes growth for it's employees.
               I look forward to using my current skills to contribute to the
-              success of whichever company I end up working with and continuing
-              my education on web development.
+              success of any company I end up working with and continuing my
+              education on web development.
             </p>
           </div>
         </div>

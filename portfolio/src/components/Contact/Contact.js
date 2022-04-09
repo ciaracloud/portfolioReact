@@ -16,6 +16,7 @@ export default function Contact() {
           className="inputField"
           type="text"
           placeholder="Name*"
+          name="name"
           required
         />
         <input
@@ -36,10 +37,10 @@ export default function Contact() {
           type="text"
           placeholder="Message*"
           name="message"
-          rows="7"
+          rows="8"
           required
         />
-        <button type="submit" className="messageButton">
+        <button type="submit" name="button" className="messageButton">
           Send message
         </button>
       </form>

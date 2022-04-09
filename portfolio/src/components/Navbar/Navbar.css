@@ -14,7 +14,7 @@
 
 .links {
   display: flex;
-  width: 19%;
+  width: 28%;
   justify-content: space-evenly;
   cursor: pointer;
 }
