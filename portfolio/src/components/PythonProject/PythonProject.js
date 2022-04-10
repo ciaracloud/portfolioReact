@@ -22,7 +22,7 @@ export default function PythonProject({ imgUrl }) {
               href="https://dev.to/ciaracloud/i-made-my-first-rpg-in-python-2dhj"
               target="_blank"
             >
-              Dev To Blog Post
+              Dev.to blog post
             </a>
             <a
               className="videoButton button"

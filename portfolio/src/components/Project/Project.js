@@ -8,6 +8,7 @@ export default function Project({
   builtWith,
   videoUrl,
   githubUrl,
+  liveUrl,
 }) {
   return (
     <div className="projectContainer">
@@ -23,6 +24,9 @@ export default function Project({
             </a>
             <a className="videoButton button" href={githubUrl} target="_blank">
               View code on Github
+            </a>
+            <a className="videoButton button" href={liveUrl} target="_blank">
+              Live site
             </a>
           </div>
         </div>
