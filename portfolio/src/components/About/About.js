@@ -1,7 +1,7 @@
 import "./About.css";
 
 import React from "react";
-import headshot from "../../images/headshot2.JPG";
+import headshot from "../../images/headshot-2023.jpg";
 import Skills from "../Skills/Skills";
 
 export default function About() {
